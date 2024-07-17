@@ -34,7 +34,7 @@ export default function ProductDetails({product} : ProductDetailsProps) {
                         type='submit'
                         name='id'
                         value={product.id}
-                        className={`${isAvailable ? 'text-black' : 'text-red-600'} rounded-lg p-2 text-xs uppercase font-bold w-full border border-black-100 hover:cursor-pointer`}
+                        className={`${isAvailable ? 'text-black' : 'text-red-700'} rounded-lg p-2 text-xs uppercase font-bold w-full border border-black-100 hover:cursor-pointer`}
                     >
                         {isAvailable ? 'Disponible' : 'No Disponible'}
                     </button>

@@ -9,7 +9,7 @@ export default function ProductForm({product} : ProductFormProps) {
     <>
         <div className="mb-4">
             <label
-                className="text-gray-800"
+                className="text-gray-900"
                 htmlFor="name"
             >Nombre Producto:</label>
             <input 

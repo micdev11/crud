@@ -46,7 +46,7 @@ export default function EditProduct() {
                 <h2 className='text-4xl font-black text-slate-500'>Editar Producto</h2>
                 <Link
                     to="/"
-                    className='rounded-md bg-indigo-600 p-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-500'
+                    className='rounded-md bg-indigo-700 p-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-600'
                 >
                     Volver a Productos
                 </Link>
@@ -82,7 +82,7 @@ export default function EditProduct() {
 
                 <input
                     type="submit"
-                    className="mt-5 w-full bg-indigo-600 p-2 text-white font-bold text-lg cursor-pointer rounded"
+                    className="mt-5 w-full bg-indigo-700 p-2 text-white font-bold text-lg cursor-pointer rounded"
                     value="Guardar Cambios"
                 />
             </Form>

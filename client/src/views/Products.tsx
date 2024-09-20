@@ -33,7 +33,7 @@ export default function Products() {
 
         <div className="p-2">
             <table className="w-full mt-5 table-auto">
-                <thead className="bg-slate-800 text-white">
+                <thead className="bg-slate-900 text-white">
                     <tr>
                         <th className="p-2">Producto</th>
                         <th className="p-2">Precio</th>

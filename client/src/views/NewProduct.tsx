@@ -26,7 +26,7 @@ export default function NewProduct() {
                 <h2 className='text-4xl font-black text-slate-500'>Registrar Producto</h2>
                 <Link
                     to="/"
-                    className='rounded-md bg-indigo-800 p-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-700'
+                    className='rounded-md bg-indigo-800 p-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-600'
                 >
                     Volver a Productos
                 </Link>
